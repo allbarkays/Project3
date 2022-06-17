@@ -33,13 +33,13 @@ added file _*index.js*_ and did _*cat index.js*_ to see the script showing the i
 
 with port 5000 running, I added inbound rule for our virtual machine security group
 
-![Port5000.PNG](./images/Port5000.PNG)
+![port5000.PNG](./images/port5000.PNG)
 
 The success was then confirmed from the browser page using the URL format http://<PublicIP-or-PublicDNS>:5000
 
 ![Express.PNG](./images/Express.PNG)
 
-I moved on to create the routes directory and api.js file in the Todo directory
+I moved on to create the routes directory and _*api.js*_ file in the Todo directory
 
 ![api-js.PNG](./images/api-js.PNG)
 
@@ -48,7 +48,7 @@ Next, I created models directory and todo.js file in the Todo directory after in
 
 ![todo-js.PNG](./images/todo-js.PNG)
 
-Updated the api.js file as in the documentation
+Updated the _*api.js*_ file as in the documentation
 
 ![routes-api-js.PNG](./images/routes-api-js.PNG)
 
@@ -66,7 +66,7 @@ Created the _*.env*_ file in the Todo directory so that I can create the connect
 `vi .env`
 
 and added the string
-DB = 'mongodb+srv://<username>:<password>@<network-address>/<dbname>?retryWrites=true&w=majority'
+`DB = 'mongodb+srv://<username>:<password>@<network-address>/<dbname>?retryWrites=true&w=majority'`
 
 replacing the username, password, network address and DB with the one copied from the MongoDB cluster
 
@@ -77,7 +77,7 @@ With the need to update the index.js file, did `vi index.js` command, deleted th
 
 After the update of index.js with the required script as in the documentation, I started the server using `node index.js` command
 
-I experienced a few errors when I did node index.js
+I experienced a few errors when I did `node index.js`
 
 ![error-nodeJS.PNG](./images/error-nodeJS.PNG)
 
@@ -158,7 +158,7 @@ Reflecting the _*POST and GET requests*_
 
 
 
-******:
+>
 Honestly, it was a bit frustrating to start this report all over after loosing the initial one but I hope I did a good enough job as the project itself was so seamless for me...
 
 
